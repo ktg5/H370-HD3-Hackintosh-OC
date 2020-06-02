@@ -21,6 +21,6 @@ If you are switching EFIs; I recommend you reinstall macOS as there could be som
 * iMessage and other iCloud services.
 ### Not working:
 * Sleep - somewhat don't need it now.
-* Shutdown/Restart - doesn't work, everytime I restart/shutdown it's just stuck at the desktop.
+* Shutdown/Restart - might just be me (BIOS settings)
 ### Unknown:
 * AirDrop and other WiFi services
