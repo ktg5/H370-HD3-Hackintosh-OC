@@ -6,7 +6,7 @@ The EFI I use for my H370 HD3 i7-8700 Hackintosh.
 ## Note.
 My "custom" EFI is only built for systems running an Gigabyte H370 HD3, an i7-8700 CPU, and an Gigabyte RX 590 and with IGPU disabled. The reason why I'm talking about this is because in the config.plist, some settings may not match your configzation.
 
-Also you'll have to run [CorpNewt's GenSMBIOS application](https://github.com/corpnewt/GenSMBIOS) because all strings in PlatformInfo/Generic are all set to blank MAY cause issues when using services like iMessage and other iCloud services on your system.
+Also you'll have to run [CorpNewt's GenSMBIOS application](https://github.com/corpnewt/GenSMBIOS) because all strings in `PlatformInfo/Generic` are all set to blank MAY cause issues when using services like iMessage and other iCloud services on your system.
 
 Any other things you want to change is all up to you, just make sure you know what you're doing.
 
@@ -20,7 +20,6 @@ If you are switching EFIs; I recommend you reinstall macOS as there could be som
 * Video editing, and Photoshopping.
 * iMessage and other iCloud services.
 ### Not working:
-* Sleep - somewhat don't need it now.
-* Shutdown/Restart - might just be me (BIOS settings)
+* Sleep/Shutdown/Restart - Can be solved with a simple SSDT patch (`FixShutdown-USB-SSDT.dsl` - just convert it to a `.aml` file).
 ### Unknown:
 * AirDrop and other WiFi services
