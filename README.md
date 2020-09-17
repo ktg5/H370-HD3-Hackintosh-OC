@@ -20,6 +20,6 @@ If you are switching EFIs; I recommend you reinstall macOS as there could be som
 * Video editing, and Photoshopping.
 * iMessage and other iCloud services.
 ### Not working:
-* Sleep/Shutdown/Restart - Can be solved with `FixShutdown-USB-SSDT` patch (Still need to find out how to make this work)
+* Sleep/Shutdown/Restart - Can be solved with `FixShutdown-USB-SSDT` patch (Pretty sure I have to "properly" disable the "red" USB, I must find what `SB` it is.)
 ### Unknown:
 * AirDrop and other WiFi services
