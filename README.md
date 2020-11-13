@@ -1,3 +1,6 @@
+# UPDATE (Nov. 13, 2020)
+I might be changing from my H370 mobo to a Z270 mobo sometime due to the recent problems such as restarting and shutdown not working, I think switching mobos would be a better opinion for me because I have no idea how patch APCI manually.
+
 # ktg5's H370 HD3, i7-8700 Hackintosh EFI.
 The EFI I use for my H370 HD3 i7-8700 Hackintosh.
 
