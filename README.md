@@ -15,6 +15,15 @@ Any other things you want to change is all up to you, just make sure you know wh
 
 If you are switching EFIs; I recommend you reinstall macOS as there could be some issues when booting your original installation of macOS if you have one.
 
+## Installation process.
+If you already have an installation of Clover or OC, I recommend to save yours as a backup in case anything goes wrong when using my config.
+
+First, you'll want to mount the EFI on your macOS drive and install the latest Opencore release from [here](https://github.com/acidanthera/OpenCorePkg/releases). Make sure to remove all the files in /Kexts, /Drivers (BUT LEAVE "OpenRuntime.efi", THIS COMES FROM ONLY THE LATEST OPENCORE RELEASE AND GETS UPDATED).
+
+Second, copy the files from this repo into your Opencore installation. Make sure to include the config and delete the dummy config stored in your Opencore installation.
+
+Lastly, test it out for yourself and enjoy!
+
 ## What does and doesn't work.
 ### Working:
 * Networking (I don't remember anything I needed to do for this?...).
