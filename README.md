@@ -13,10 +13,8 @@ Also you'll have to run [CorpNewt's GenSMBIOS application](https://github.com/co
 
 Any other things you want to change is all up to you, just make sure you know what you're doing.
 
-If you are switching EFIs; I recommend you reinstall macOS as there could be some issues when booting your original installation of macOS if you have one.
-
 ## Installation process.
-If you already have an installation of Clover or OC, I recommend to save yours as a backup in case anything goes wrong when using my config.
+If you already have an installation of Clover or OC, I recommend to save yours as a backup in case anything goes wrong when using my config. And if you already installed macOS onto your system that has some other EFI -- I recommend you reinstall macOS as there could be some issues when booting your original installation of macOS if you have one.
 
 First, you'll want to mount the EFI on your macOS drive and install the latest Opencore release from [here](https://github.com/acidanthera/OpenCorePkg/releases). Make sure to remove all the files in /Kexts, /Drivers (BUT LEAVE "OpenRuntime.efi", THIS COMES FROM ONLY THE LATEST OPENCORE RELEASE AND GETS UPDATED).
 
@@ -32,6 +30,6 @@ Lastly, test it out for yourself and enjoy!
 * Video editing, and Photoshopping.
 * iMessage and other iCloud services.
 ### Not working:
-* Sleep/Shutdown/Restart - Can be solved with [`FixShutdown-USB-SSDT`](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/FixShutdown-USB-SSDT.dsl) patch (Pretty sure I have to "properly" disable the "red" USB, I must find what `SB` it is.)
+* Sleep/Shutdown/Restart - Can be solved with [`FixShutdown-USB-SSDT`](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/FixShutdown-USB-SSDT.dsl) patch (I have no idea how to manually do this, no one will help me...)
 ### Unknown:
 * AirDrop and other WiFi services
