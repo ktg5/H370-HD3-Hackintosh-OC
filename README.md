@@ -9,8 +9,6 @@ The EFI I use for my H370 HD3 i7-8700 Hackintosh.
 ## Note.
 My "custom" EFI is only built for systems running an Gigabyte H370 HD3, an i7-8700 CPU, and an Gigabyte RX 590 and with IGPU disabled. The reason why I'm talking about this is because in the config.plist, some settings may not match your configzation.
 
-Also you'll have to run [CorpNewt's GenSMBIOS application](https://github.com/corpnewt/GenSMBIOS) because all strings in `PlatformInfo/Generic` are all set to blank MAY cause issues when using services like iMessage and other iCloud services on your system.
-
 Any other things you want to change is all up to you, just make sure you know what you're doing.
 
 ## Installation process.
@@ -18,7 +16,7 @@ If you already have an installation of Clover or OC, I recommend to save yours a
 
 First, you'll want to mount the EFI on your macOS drive and install the latest Opencore release from [here](https://github.com/acidanthera/OpenCorePkg/releases). Make sure to remove all the files in /Kexts, /Drivers (BUT LEAVE "OpenRuntime.efi", THIS COMES FROM ONLY THE LATEST OPENCORE RELEASE AND GETS UPDATED).
 
-Second, copy the files from this repo into your Opencore installation. Make sure to include the config and delete the dummy config stored in your Opencore installation.
+Second, copy the files from this repo into your Opencore installation. Make sure to include the config and delete the dummy config stored in your Opencore installation. Also you'll have to run [CorpNewt's GenSMBIOS application](https://github.com/corpnewt/GenSMBIOS) because all strings in `PlatformInfo/Generic` are all set to blank MAY cause issues when using services like iMessage and other iCloud services on your system.
 
 Lastly, test it out for yourself and enjoy!
 
