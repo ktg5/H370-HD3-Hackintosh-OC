@@ -1,6 +1,3 @@
-# UPDATE (Nov. 15, 2020)
-Big Sur will not work at the moment, reasons are the same as this https://www.reddit.com/r/hackintosh/comments/jt5pjx/z97_chipset_haswell_users/
-
 # UPDATE (Nov. 13, 2020)
 I might be changing from my H370 mobo to a Z270 mobo sometime due to the recent problems such as restarting and shutdown not working, I think switching mobos would be a better opinion for me because I have no idea how patch APCI manually.
 
