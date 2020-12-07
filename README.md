@@ -1,5 +1,5 @@
-# UPDATE (Nov. 13, 2020)
-I might be changing from my H370 mobo to a Z270 mobo sometime due to the recent problems such as restarting and shutdown not working, I think switching mobos would be a better opinion for me because I have no idea how patch APCI manually.
+## some news (macOS 11 support with OC 0.6.4???)
+A new release of OC got released today -- 0.6.4. This new update has the following listed in the release info, "Added `BlacklistAppleUpdate` to fix macOS 11 broken update optout". Since this is a new feature that literally has "BlacklistAppleUpdate" and is discribed as "...to fix macOS 11 broken update optout", this feature might help me with updating to macOS 11. But only the source code is on the release page as of Dec. 7, 2020 @ 8:17AM PST. We'll just have to find out.
 
 # ktg5's H370 HD3, i7-8700 Hackintosh EFI.
 The EFI I use for my H370 HD3 i7-8700 Hackintosh.
