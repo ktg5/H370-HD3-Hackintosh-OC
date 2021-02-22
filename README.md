@@ -6,7 +6,7 @@ The EFI I use for my H370 HD3 i7-8700 Hackintosh.
 [You can easily download the latest version of this EFI folder by looking in the releases section.](https://github.com/ktg5/H370-HD3-i7-8700-Hackintosh-OC/releases)
 
 ## Notice (Feb. 22, 2021)
-I've recently I decided to stop this project and move on from Hackintoshing. At times it can be too compliated and I can't get passed with somethings. If you'd like to continue this projec on your own, you can fork this project and mess with it.
+I've recently I decided to stop this project and move on from Hackintoshing. At times it can be too compliated and I can't get passed somethings due to how unspported my system is for this. If you'd like to continue this projec on your own, you can fork this project and mess with it.
 
 Thanks for sticking around and looking at this repo.
 
